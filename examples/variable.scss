@@ -1,0 +1,13 @@
+$color: blue; // A color variable
+$size: 15px; // This is a size variable holds 15px
+
+p {
+  color: $color; // This is a blue color
+}
+
+body {
+  background-color: $color; // We used background-color blue instead of writing blue we put $color variable
+  font-size: $size; // Similarly we used $size variable instead of 15px
+}
+
+// So we can see that variable is very usefull and we can use anywhere we want.
