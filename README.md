@@ -1,3 +1,5 @@
+# A very basic and most effective SCSS guide
+
 ### SCSS Variables : A closer look at how to define variables
 
 As we know that it is possible to define variables into scss file so that we can use them anywhere as needed. So in this section, we will see how can we define a variable into a scss file.
