@@ -1,0 +1,9 @@
+// While loop in SCSS : How to map over items depending on some condition?
+
+$heading: 1;
+@while $heading < 7 {
+  .heading-#{$heading} {
+    font-size: 15 * $heading px;
+  }
+  $heading: $heading + 1;
+}

@@ -1,0 +1,10 @@
+// @mixin in SCSS : How to write function?
+
+@mixin font-color($color) {
+  color: $color;
+}
+
+p {
+  @include font-color(blue);
+  font-size: 15px;
+}

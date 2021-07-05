@@ -1,0 +1,19 @@
+// Map in SCSS : How to map over items?
+
+@each $color in red, green, blue {
+  .text-#{$color} {
+    color: #{$color};
+  }
+}
+
+$colors: (
+  primary: blue,
+  danger: red,
+  success: green,
+);
+
+@each $key, $color in $colors {
+  .text-#{$key} {
+    color: $color;
+  }
+}

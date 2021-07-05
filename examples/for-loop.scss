@@ -1,0 +1,13 @@
+// For loop in SCSS : How to write for loop?
+
+@for $size from 1 through 6 {
+  .text-size-#{$size} {
+    font-size: 15 * $size px;
+  }
+}
+
+@for $size from 1 to 7 {
+  .text-size-#{$size} {
+    font-size: 15 * $size px;
+  }
+}

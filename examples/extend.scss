@@ -1,0 +1,10 @@
+.mini-container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.mini-blue-container {
+  @extend .mini-container;
+  background-color: blue;
+}
